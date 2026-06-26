@@ -1,17 +1,31 @@
-# grade_tracker
+# Grade Tracker
 
-A new Flutter project.
+A Flutter application for students to track their grades across subjects.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Add Subject** — Add subjects with names and marks (0-100) with form validation
+- **Subject List** — View all subjects with their grades, swipe to delete
+- **Summary** — View total subjects, average mark, overall grade, and pass/fail breakdown
+- **Light/Dark Theme** — Toggle between custom light and dark themes
 
-A few resources to get you started if this is your first Flutter project:
+## Grade Scale
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+| Grade | Mark Range |
+|-------|-----------|
+| A     | ≥ 80      |
+| B     | ≥ 65      |
+| C     | ≥ 50      |
+| F     | < 50      |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+
+1. Ensure Flutter is installed and set up
+2. Clone the repository
+3. Run `flutter pub get` to install dependencies
+4. Run `flutter run` to launch the app
+
+## Built With
+
+- Flutter
+- Provider (state management)
