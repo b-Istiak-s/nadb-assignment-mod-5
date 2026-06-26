@@ -25,6 +25,15 @@ A Flutter application for students to track their grades across subjects.
 3. Run `flutter pub get` to install dependencies
 4. Run `flutter run` to launch the app
 
+## Screenshots
+
+<p align="center">
+  <img src="assets/subject_creation.png" alt="Subject Creation" width="250">
+  <img src="assets/subject_list.png" alt="Subject List" width="250">
+  <img src="assets/summary.png" alt="Summary" width="250">
+</p>
+
+
 ## Built With
 
 - Flutter
